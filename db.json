@@ -1,20 +1,84 @@
 {
-    "books": [
-        {
-            "title": "The Hidden Life of Trees",
-            "author": "Peter Wohlleben",
-            "genre": "Science, Nature",
-            "year": "2015",
-            "image": "https://m.media-amazon.com/images/I/513MzQDmx1L._SY344_BO1,204,203,200_.jpg",
-            "id": 1
-        },
-        {
-            "title": "Cosmos",
-            "author": "Carl Sagan",
-            "genre": "Science",
-            "year": "1980",
-            "image": "https://m.media-amazon.com/images/I/51IcVjsJlDL._SY344_BO1,204,203,200_.jpg",
-            "id": 2
-        }
+    "products": [
+      {
+        "name": "Milk",
+        "price": 1.5,
+        "amount": 3,
+        "id": "1",
+        "image": "https://imgs.search.brave.com/M6u3m7J3bZymw167mdLJAzAFZ-O27sh3EqyczI_xxNg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MjM0NzM4Mjc1MzMt/MmE2NGQwZDM2NzQ4/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TVRGOGZH/MXBiR3Q4Wlc1OE1I/eDhNSHg4ZkRBPQ",
+        "desc": "Description for milk"
+      },
+      {
+        "name": "Cereal",
+        "price": 1.25,
+        "amount": 15,
+        "id": "2",
+        "image": "https://imgs.search.brave.com/8h1O8Kb08Ato1haRsBLlD4QllX-LYab7srS3Aw6id5k/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTM2/NDYzOTQzNi9waG90/by9mcnVpdC1jZXJl/YWwuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPWJDMDNIRmY3/M2x3OG04U3JwZ2Zn/R0JGaDN3YkhYVi1U/UU9yaEFObi1XQms9",
+        "desc": "Description for cereal"
+      },
+      {
+        "name": "Eggs",
+        "price": 4.5,
+        "amount": 12,
+        "id": "3",
+        "image": "https://imgs.search.brave.com/RrcrWgO7eabDGeYcubw35EMPJahv38yJNziCTjRwIqM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTMw/Mzg0Mzc1OC9waG90/by9lZ2dzLWluLWEt/Y2FydG9uLmpwZz9z/PTYxMng2MTImdz0w/Jms9MjAmYz1WUmtL/bzZXakpjemFSeEFZ/U2dSWWhmZ2F4Sk9Z/d18xUjJaMzhmZm1i/ZWQwPQ",
+        "desc": "Description for Eggs"
+      },
+      {
+        "name": "Rice",
+        "price": 3,
+        "amount": 12,
+        "id": "4",
+        "image": "https://imgs.search.brave.com/-hj6EaNwC68ftdtBituJfh19Vn4ZfHtBQv7lHrZjTW4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTE3/MzI2NjQwMS9waG90/by9yaWNlLWNvb2tl/ZC1yaWNlLXN0ZWFt/ZWQtcmljZS1vbi1i/b3dsLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz03ZVJsSlZT/RUhPZEhZbVpVTS1z/TXFMQ3cyVlpRMVVz/Si1Ba1VsaVFWR1Q4/PQ",
+        "desc": "Description for rice"
+      },
+      {
+        "id": "5",
+        "name": "Tomatoes",
+        "price": "4",
+        "amount": "20",
+        "image": "https://imgs.search.brave.com/evSRbcQAYXNmPczN41SHIQXnKknh6XsyxDF_7l2aXds/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5oc3dzdGF0aWMu/Y29tL2V5SmlkV05y/WlhRaU9pSmpiMjUw/Wlc1MExtaHpkM04w/WVhScFl5NWpiMjBp/TENKclpYa2lPaUpu/YVdaY0x6SmlkWGt0/WjJWdVpYSnBZeTB4/TG1wd1p5SXNJbVZr/YVhSeklqcDdJbkps/YzJsNlpTSTZleUoz/YVdSMGFDSTZPREk0/ZlgxOQ",
+        "desc": "Description for Tomatoes"
+      },
+      {
+        "id": "6",
+        "name": "pinaple",
+        "price": "10",
+        "amount": "15",
+        "image": "https://imgs.search.brave.com/evSRbcQAYXNmPczN41SHIQXnKknh6XsyxDF_7l2aXds/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5oc3dzdGF0aWMu/Y29tL2V5SmlkV05y/WlhRaU9pSmpiMjUw/Wlc1MExtaHpkM04w/WVhScFl5NWpiMjBp/TENKclpYa2lPaUpu/YVdaY0x6SmlkWGt0/WjJWdVpYSnBZeTB4/TG1wd1p5SXNJbVZr/YVhSeklqcDdJbkps/YzJsNlpTSTZleUoz/YVdSMGFDSTZPREk0/ZlgxOQ",
+        "desc": "Description for pinaple"
+      },
+      {
+        "id": "7",
+        "name": "Carrot",
+        "price": "12",
+        "amount": "14",
+        "image": "https://imgs.search.brave.com/evSRbcQAYXNmPczN41SHIQXnKknh6XsyxDF_7l2aXds/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5oc3dzdGF0aWMu/Y29tL2V5SmlkV05y/WlhRaU9pSmpiMjUw/Wlc1MExtaHpkM04w/WVhScFl5NWpiMjBp/TENKclpYa2lPaUpu/YVdaY0x6SmlkWGt0/WjJWdVpYSnBZeTB4/TG1wd1p5SXNJbVZr/YVhSeklqcDdJbkps/YzJsNlpTSTZleUoz/YVdSMGFDSTZPREk0/ZlgxOQ",
+        "desc": "Description for Carrot"
+      },
+      {
+        "id": "8",
+        "name": "salt",
+        "price": "3",
+        "amount": "5",
+        "image": "https://imgs.search.brave.com/evSRbcQAYXNmPczN41SHIQXnKknh6XsyxDF_7l2aXds/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5oc3dzdGF0aWMu/Y29tL2V5SmlkV05y/WlhRaU9pSmpiMjUw/Wlc1MExtaHpkM04w/WVhScFl5NWpiMjBp/TENKclpYa2lPaUpu/YVdaY0x6SmlkWGt0/WjJWdVpYSnBZeTB4/TG1wd1p5SXNJbVZr/YVhSeklqcDdJbkps/YzJsNlpTSTZleUoz/YVdSMGFDSTZPREk0/ZlgxOQ",
+        "desc": "Description for salt"
+      },
+      {
+        "id": 9,
+        "name": "Banana",
+        "image": "https://www.shutterstock.com/image-photo/bunch-bananas-isolated-on-white-600nw-1722111529.jpg",
+        "price": "3.4",
+        "amount": "100",
+        "desc": "Description for Banana"
+      },
+      {
+        "id": 10,
+        "name": "apples",
+        "image": "https://www.shutterstock.com/image-photo/red-apple-isolated-on-white-600nw-1727544364.jpg",
+        "price": "2",
+        "amount": "50",
+        "desc": "Description for apples"
+      }
     ]
-}
+  }
