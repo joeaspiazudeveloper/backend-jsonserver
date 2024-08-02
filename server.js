@@ -30,7 +30,7 @@ server.use((req, res, next) => {
           console.error(err);
           return res.status(500).send('Error writing db.json');
         }
-
+        console.log('can write to db.json file?');
         next();
       });
     });
